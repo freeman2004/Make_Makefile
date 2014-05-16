@@ -5,6 +5,7 @@ Make Makefile automatically
 
 
 Makefile.in
+=============
 
 HelloWorld_PACKAGE_NAME=@PACKAGE_NAME@
 HelloWorld_PACKAGE_STRING=@PACKAGE_STRING@
@@ -14,6 +15,7 @@ HelloWorld_PACKAGE_VERSION=@PACKAGE_VERSION@
 HelloWorld <-- Modify the name which you like
 
 configure
+=============
 
 PACKAGE_NAME='HelloWorld'
 PACKAGE_TARNAME='HelloWorld'
