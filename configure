@@ -551,10 +551,10 @@ MFLAGS=
 MAKEFLAGS=
 
 # Identity of this package.
-PACKAGE_NAME='GOODJOB'
-PACKAGE_TARNAME='GOODJOB'
-PACKAGE_VERSION='0.2'
-PACKAGE_STRING='GOODJOB 0.2'
+PACKAGE_NAME='HelloWorld'
+PACKAGE_TARNAME='HelloWorld'
+PACKAGE_VERSION='0.1'
+PACKAGE_STRING='HelloWorld 0.1'
 PACKAGE_BUGREPORT=''
 PACKAGE_URL=''
 
@@ -1753,7 +1753,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
 am__api_version='1.11'
 
 ac_aux_dir=
-for ac_dir in "$srcdir" "$srcdir/.." "$srcdir/../.."; do
+for ac_dir in "$srcdir/config" "$srcdir" "$srcdir/.." "$srcdir/../.."; do
   for ac_t in install-sh install.sh shtool; do
     if test -f "$ac_dir/$ac_t"; then
       ac_aux_dir=$ac_dir
@@ -3993,7 +3993,7 @@ do
 	 test -f "$ac_f" ||
 	   case $ac_f in
 	   [\\/$]*) false;;
-	   *) test -f "$srcdir/$ac_f" && ac_f="$srcdir/$ac_f";;
+	   *) test -f "$srcdir/config/$ac_f" && ac_f="$srcdir/config/$ac_f";;
 	   esac ||
 	   as_fn_error "cannot find input file: \`$ac_f'" "$LINENO" 5;;
       esac
